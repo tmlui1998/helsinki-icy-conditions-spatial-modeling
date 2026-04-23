@@ -306,7 +306,7 @@ where:
 - $w_{ij}$ is the spatial weight between cells $i$ and $j$,
 - $W = \sum_i \sum_j w_{ij}$.
 
-The notebook uses a **Queen contiguity** weights matrix, so two cells are neighbors if they share a border or a corner. The weights are row-standardized so that each cell receives equal total influence from its neighbors.
+The notebook uses a KNN contiguity weights matrix, so two cells are neighbors if they share a border or a corner. The weights are row-standardized so that each cell receives equal total influence from its neighbors.
 
 Under the null hypothesis of spatial randomness:
 
